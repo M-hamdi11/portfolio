@@ -157,7 +157,7 @@ testimonials.addEventListener("click", function () {
 setting.addEventListener("click", function () {
   settingsSidebar.classList.remove("translate-x-full");
   settingsSidebar.classList.add("translate-x-0");
-  setting.style.transform = "translate(-310px, -50%)";
+  setting.style.transform = "translate(-650%, -50%)";
 });
 closeSettings.addEventListener("click", function () {
   settingsSidebar.classList.remove("translate-x-0");
