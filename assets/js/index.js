@@ -154,10 +154,11 @@ testimonials.addEventListener("click", function () {
   testimonials.classList.add("active");
 });
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+const sidebarWidth = settingsSidebar.offsetWidth;
 setting.addEventListener("click", function () {
   settingsSidebar.classList.remove("translate-x-full");
   settingsSidebar.classList.add("translate-x-0");
-  setting.style.right = "300px"; 
+  setting.style.right = sidebarWidth + "px"; 
   setting.style.transform = "translate(0, -50%)"; 
 });
 closeSettings.addEventListener("click", function () {
